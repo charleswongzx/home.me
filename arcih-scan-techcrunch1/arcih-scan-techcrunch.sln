@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arcih-scan-techcrunch", "Assembly-CSharp.csproj", "{FC3A5CC4-FEC4-3AF0-9A98-B64FF2747F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arcih-scan-techcrunch", "Assembly-CSharp-Editor.csproj", "{4AAD6648-132D-656E-0B98-14B41731CF0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC3A5CC4-FEC4-3AF0-9A98-B64FF2747F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3A5CC4-FEC4-3AF0-9A98-B64FF2747F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3A5CC4-FEC4-3AF0-9A98-B64FF2747F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3A5CC4-FEC4-3AF0-9A98-B64FF2747F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AAD6648-132D-656E-0B98-14B41731CF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAD6648-132D-656E-0B98-14B41731CF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAD6648-132D-656E-0B98-14B41731CF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAD6648-132D-656E-0B98-14B41731CF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

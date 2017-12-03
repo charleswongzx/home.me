@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ProcessImage_backup.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ProcessImage_backup.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/LoadCameraSceneOnClick.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/QueryAddressOnClick.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DiverseNextSceneOnClick.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GetAttributes.cs" Line="55" Column="4" />
+      <File FileName="Assets/AsImpL/Scripts/ProcessImage.cs" Line="17" Column="27" />
+      <File FileName="Assets/AsImpL/Scripts/Loaders/Loader.cs" Line="260" Column="1" />
+      <File FileName="Assets/AsImpL/Examples/Scripts/ObjDownloader_Floor.cs" Line="7" Column="30" />
+      <File FileName="Assets/AsImpL/Examples/Scripts/ObjDownloader_walls.cs" Line="6" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
