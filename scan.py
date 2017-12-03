@@ -70,6 +70,8 @@ def preprocess(img, debug=False):
     warped = four_point_transform(orig, screenCnt.reshape(4, 2) * ratio)
     warped_BGR = warped
 
+    cv2.imwrite('static/template.jpg', warped_BGR)
+
     # convert the warped image to grayscale, then threshold it
     # to give it that 'black and white' paper effect
     warped = cv2.cvtColor(warped, cv2.COLOR_BGR2GRAY)

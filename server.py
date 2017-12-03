@@ -38,7 +38,7 @@ def process():
     dilated, warped_edges, warped_BGR = preprocess(img, debug=False)
     cv2.imwrite(filename, dilated)
 
-    area, num_rooms, mask = get_rooms_area(dilated, warped_edges, debug=True)
+    area, num_rooms, mask = get_rooms_area(dilated, warped_edges, debug=False)
 
     convert_to_obj(dilated, mask)
 

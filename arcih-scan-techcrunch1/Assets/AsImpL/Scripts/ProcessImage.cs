@@ -54,6 +54,15 @@ public class ProcessImage : MonoBehaviour {
 		else {
 			print("Finished Uploading Screenshot");
 		}
+
+		Debug.Log(www.downloadHandler.text);
+		itemData = JsonMapper.ToObject(www.downloadHandler.text);
+
+		int num_rooms = (int)itemData ["num_rooms"];
+		float area = (float)itemData ["area"];
+
+		PlayerPrefs.SetInt ("num_rooms", num_rooms);
+		PlayerPrefs.SetFloat ("area", area);
 	}
 
 
@@ -72,14 +81,7 @@ public class ProcessImage : MonoBehaviour {
 //			StartCoroutine (GetFloor ());
 
 			// Show results as text
-//			Debug.Log(www.downloadHandler.text);
-//			itemData = JsonMapper.ToObject(www.downloadHandler.text);
 
-//			int num_rooms = (int)itemData ["num_rooms"];
-//			float area = (float)itemData ["area"];
-
-//			PlayerPrefs.SetInt ("num_rooms", num_rooms);
-//			PlayerPrefs.SetFloat ("area", area);
 
 			// Or retrieve results as binary data
 			//byte[] results = www.downloadHandler.data;
