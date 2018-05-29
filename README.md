@@ -1,5 +1,5 @@
 # home.me
-### AR-powered App for turning paper plans into 3D buildings in seconds
+### AR-powered Unity app for turning paper plans into 3D buildings in seconds
 ---
 By Charles Wong and Aravind SK
 ---
